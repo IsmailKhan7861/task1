@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* common padding for entire page */
+.center{
+    width:80%;
+    margin: auto;
+}
+
+/* top container */
+.top-container{
+    background-color: #1595eb;
+    color:#ffffff;
+}
+.top-container .logo1{
+    padding-top:20px;
+}
+.top-container .logo{
+    height: 40px;
+    width: 180px;
+    text-align: center;
+  
+}
+.top-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-container .container .left .heading{
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    width: 80%;
+}
+
+.top-container .container .left .gplay{
+    margin-top:100px;
+    display: flex;
+}
+.top-container .container .left .gplay .gplay-img{
+    height: 80px;
+    width:250px
+}
+.top-container .container .left .gplay .title{
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    width: 30%;
+    position:relative;
+    bottom:6rem;
+    color:#11f74b;
+}
+.top-container .right{
+    padding-top: 70px;
+    overflow: visible;
+    height:600px;
+    z-index: 1;
+}
+
+/* middle container */
+.middle-container .container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.middle-container .left{
+    flex-basis: 70%;
+}
+.middle-container .right{
+    flex-basis: 30%;
+}
+.middle-container .center .heading{
+    font-size: 3rem;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:50px;
+}
+
+
+
+.middle-container .center  .list{
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.middle-container .center .list .list-1:first-child{
+    margin-right: 20px;
+}
+.middle-container .center .list .c{
+    display: flex;
+    gap:20px;
+    margin-top:10px;
+    flex-basis: 50%;
+}
+
+.middle-container .container .left .images .img2{
+    margin: 0px -40px -25px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.middle-container .container .right .heading{
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+
+.middle-container .container .right .h4{
+    font-size: 1.6rem;
+
+    color:#505050;
+    font-weight: lighter;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.middle-container .container .right .g-play1{
+    margin-top:0px;
+}
+.bottom-container {
+    background-image: url(img/container-4/container-4-2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Bottom container */
+.bottom-container .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+.bottom-container .left  .heading{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.bottom-container .left .para{
+    font-size: 2rem;
+    margin:60px 0px 100px 0px
+}
+.bottom-container .left .g-play{
+    height: 70px;
+    width: 200px;
+}
+.bottom-container .right{
+    padding-top:70px;
+    /* margin: -10px 0px 0px -180px; */
+    overflow: visible;
+    height: 600px;
+}
+/* footer */
+.footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.footer .accurate{
+    background-color:#6f87de;
+    color:#ffffff;
+    text-align: center;
+    padding:25px 0px;
+    font-weight: 200;
+    font-size: 2.5rem;
+   
+}
+.footer .accurate .install{
+    color:#FFA500;
+}
+
+.footer .copyright{
+    background-color: #133775;
+    padding:25px 0px;
+    color:#EDEADE;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+.footer .copyright ul{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer .copyright ul li:first-child{
+    list-style: none;
+}
+
+
+/* 900-1200 screen */
+@media  only screen and  (max-width:1200px ), screen and(min-width:901px) {
+    html{
+        font-size: 8px;
+    }
+
+
+    .top-container .logo{
+        height: 30px;
+    width: 150px;
+    }
+
+    .top-container .container .right .mobile{
+        height:500px;
+        width: 220px;
+    }
+
+
+}
+
+/* for 900px */
+@media (max-width:900px) {
+    html{
+        font-size: 8px;
+    }
+
+
+    .top-container{
+        height: 40vh;
+    }
+    .top-container .logo{
+        margin:auto;
+    }
+    .top-container .container .left .heading{
+        text-align: center;
+        width: 100%;
+        margin-top:50px
+    }
+    .top-container .container .left .gplay{
+        justify-content: center;
+    }
+    .top-container .container .left .gplay .gplay-img{
+        height: 60px;
+    width:180px
+    }
+    .top-container .container .right .mobile{
+        display: none;
+    }
+   
+    .middle-container{
+        display: block;
+    }
+    .middle-container .right{
+        flex-basis: 100%;
+    }
+    
+}
+
+
+
+/* for mobile */
+
+@media (max-width:500px) {
+    html{
+        font-size: 5px;
+    }
+
+    
+    .top-container .container .left .heading
+    {
+        text-align: center;
+        width: 100%;
+        margin-top:30px;
+    }
+    .top-container .container .left .gplay .gplay-img{
+        height: 40px;
+    width:130px
+    }
+    .top-container .container .right .mobile,
+    .bottom-container .container .right,
+    .middle-container .container .left .images{
+        display: none;
+    }
+
+    
+    .top-container .container .left .gplay .arrow{
+        height: 30px;
+        width: 100px;
+    }
+    .top-container .container .left .gplay .title{
+        right:3rem;
+    }
+}

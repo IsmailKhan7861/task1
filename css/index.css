@@ -1,0 +1,741 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f1f8;
+    position: relative;
+}
+
+/*--------------Container-1-------------------*/
+
+    #container-1{
+        padding-left: 15.5%;
+        background-image: linear-gradient(45deg, #3eb1e4, #4c6dea);
+        padding-bottom: 9%;
+    }
+
+    #container-1 #nav-bar {
+        padding-top: 2%;
+    }
+
+    #container-1 #nav-bar .weather-logo{
+        width: 14.8%;
+        object-fit: contain;
+    }
+
+    #sub-container-1 .Free-Weather-App-For-Your-Phone {
+        font-family: 'Roboto';
+        font-size: 3rem;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 40%;
+        margin: 0;
+        margin-top: 6.4%;
+    }
+
+    #sub-container-1 .google-play{
+        margin-top: 6.4%;
+        width: 14.5%;
+        object-fit: contain;
+    }
+
+    #sub-container-1 .Click-here-to-try-it-for-free{
+        width: 12%;
+        font-family: 'Covered By Your Grace';
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.17;
+        letter-spacing: normal;
+        text-align: left;
+        color: #abfa00;
+        margin-left: 18%;
+        margin-top: -7%;
+    }
+
+    #sub-container-1 .arrow{
+        margin-left: 14.5%;
+        margin-top: -2%;
+    }
+
+    #mobile_absolute {
+        position: absolute;
+        top: 6.5%;
+        right: 15.5%;
+    }
+
+    /*--------------Container-2-------------------*/
+
+    #container-2{
+        padding-left: 15.5%;
+        padding-bottom: 6%;
+    }
+
+    #container-2 .Get-local-weather-updates-more {
+        font-family: 'Roboto';
+        font-size: 2.25rem;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.83;
+        letter-spacing: normal;
+        text-align: left;
+        color: #171d35;
+        margin-bottom: 0;
+    }
+
+    #container-2 .checked{
+        width: 8%;
+        margin-right: 3%;
+        object-fit: contain;
+    }
+
+    #container-2 .checked-text{
+        font-family: 'Roboto';
+        font-size: 1.152rem;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #333333;
+
+    }
+
+    #container-2 #check-1{
+        float: left;
+        margin-top: 2.2%;
+        margin-right: 3%;
+    }
+
+    #container-2 #check-2{
+        float: left;
+        margin-top: 2.2%;
+    }
+
+    #container-2 .check{
+        margin-top: 5%;
+    }
+
+    #container-2:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /*--------------Container-3-------------------*/
+
+    #container-3{
+        padding-left: 15.5%;
+        padding-bottom: 10%;
+    }
+
+    #container-3 #wallpaper{
+        width: 40%;
+        float: left;
+        position: relative;
+    }
+
+    #container-3 #wallpaper .wallpaper1{
+        width: 246px;
+        position: absolute;
+        left: 140px;
+        top: -8%;
+        z-index: 1;
+    }
+
+    #container-3 #wallpaper .wallpaper3{
+        width: 214px;
+        position: absolute;
+        left: 313px;
+    }
+
+    #container-3 #wallpaper-text{
+        float: right;
+        width: 40%;
+        padding-right: 2.8%;
+    }
+
+    #container-3 #wallpaper-text .google-play{
+        width: 38%;
+        margin-top: 4%;
+    }
+
+    #container-3 #wallpaper-text .Real-time-Weather-Wallpaper{
+        font-family: 'Roboto';
+        font-size: 2.25rem;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.14;
+        letter-spacing: normal;
+        text-align: left;
+        color: #171d35;
+    }
+
+    #container-3 #wallpaper-text .Enjoy-dynamic-backgrounds-on-your-phone-that-change-to-match{
+        width: 75%;
+        font-family: Roboto;
+        font-size: 1.125rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+    }
+
+    #container-3:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /*--------------Container-4-------------------*/
+
+    #container-4{
+        background-image: url(../img/container-4/container-4-3x.png);
+        position: relative;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    #container-4 .Custom-Web-Search{ 
+        font-family: Roboto;
+        font-size: 2.25rem;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.83;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    #container-4 .Type-or-speak-to-search-the-web-from-your-home-screen{
+        font-family: Roboto;
+        font-size: 1.125rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ddecf3;
+        margin: 0;
+    }
+
+    #container-4 .google-play{
+        width: 38%;
+        object-fit: contain;
+        margin-top: 15%;
+    }
+
+    #container-4 .container-4-left{
+        width: 34%;
+        padding-left: 15.5%;
+        float: left;
+        padding-top: 13.2%;
+    }
+
+    #container-4 .container-4-right{
+        float: right;
+        padding-right: 13.4%;
+        padding-top: 6.6%;
+        overflow: hidden;
+        height: 90%;
+    }
+
+    #container-4 .container-4-nav{
+        font-family: Roboto;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.75;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        background-color: #7884df;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #container-4:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /*--------------Container-5-------------------*/
+
+    #container-5{
+        padding-left: 15.5%;
+        padding-right: 15.5%;
+        background-color: #2e3260;
+    }
+
+    #container-5 .footer-1{
+        font-family: Roboto;
+        font-size: 0.8rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: center;
+        color: #9496ac;
+        margin: 0;
+        padding-top: 2%;
+    }
+
+    #container-5 .footer-2{
+        font-family: Roboto;
+        font-size: 0.8rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: center;
+        color: #9496ac;
+        margin: 0;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+/*------------------For Tablets-------------------*/
+
+@media screen and (max-width: 1200px){
+    
+
+/*----------------Container 1 ----------------*/
+    
+    #container-1 #nav-bar .weather-logo{
+        width: 20%;
+    }
+    
+    #sub-container-1 .Free-Weather-App-For-Your-Phone{
+        font-size: 2.5rem;
+    }
+    
+    #sub-container-1 .google-play{
+        width: 17%;
+    }
+    
+    #sub-container-1 .Click-here-to-try-it-for-free{
+        font-size: 1.1rem;
+        margin-left: 20%;
+    }
+    
+    #sub-container-1 .arrow{
+        width: 8%;
+    }
+    
+    #mobile_absolute {
+        top: 4%;
+    }
+    
+    #mobile_absolute img{
+        width: 222px;
+        height: 472px;
+    }
+    
+    
+/*----------------Container 2 ----------------*/
+    
+    #container-2 .Get-local-weather-updates-more{
+        font-size: 1.75rem;
+    }
+    
+    #container-2 .checked-text {
+        font-size: 0.9rem;
+    }
+    
+    
+/*---------------Container 3------------------*/
+    
+    #container-3 #wallpaper .wallpaper1 {
+        width: 198px;
+        height: 408px;
+        left: 115px;
+    }
+    
+    #container-3 #wallpaper .wallpaper2 {
+        width: 172px;
+        height: 361px;
+    }
+    
+    #container-3 #wallpaper .wallpaper3 {
+        width: 172px;
+        height: 361px;
+        left: 250px;
+    }
+    
+    #container-3 #wallpaper-text .Real-time-Weather-Wallpaper {
+        font-size: 1.75rem;
+    }
+    
+    #container-3 #wallpaper-text .Enjoy-dynamic-backgrounds-on-your-phone-that-change-to-match{
+        font-size: 0.8rem;
+    }
+    
+/*---------------Container 4------------------*/
+    
+    #container-4 .Custom-Web-Search {
+        font-size: 1.75rem;
+    }
+    
+    #container-4 .Type-or-speak-to-search-the-web-from-your-home-screen {
+        font-size: 0.8rem;
+    }
+    
+    #container-4 .container-4-right{
+        height: 30%;
+    }
+    
+    #container-4 .container-4-right img{
+        width: 250px;
+        height: 420px;
+    }
+    
+    #container-4 .container-4-nav {
+        font-size: 1.2rem;
+    }
+    
+/*---------------Container 5------------------*/ 
+    
+    #container-5 .footer-1 {
+        font-size: 0.6rem;
+    }
+    
+    #container-5 .footer-2 {
+        font-size: 0.6rem;
+    } 
+}
+
+
+
+/*-------------------For Mobiles---------------*/
+
+@media screen and (max-width: 960px){
+
+/*----------------Container-1--------------------*/
+    
+    #mobile_absolute {
+        display: none;
+    }
+    
+    #container-1{
+        padding-right: 15.5%;
+    }
+    
+    #container-1 #nav-bar .weather-logo {
+        width: 40%;
+        padding-left: 28%;
+        padding-top: 2%;
+    }
+    
+    #sub-container-1 .Free-Weather-App-For-Your-Phone{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    
+    #sub-container-1 .Click-here-to-try-it-for-free{
+        font-size: 1.1rem;
+        margin-left: 58%;
+        margin-top: -10%;
+        width: 18%;
+    }
+    
+    #sub-container-1 .arrow{
+        margin-left: 52%;
+        margin-top: -3.5%;
+        width: 12%;
+    }
+    
+    #sub-container-1 .google-play{
+        width: 28%;
+        padding-left: 25%;
+    }
+    
+/*----------------Container-2--------------------*/
+    
+    #container-2{
+        padding-left: 0;
+    }
+    
+    #container-2 #check-1{
+        padding-left: 18%;
+    }
+    
+    #container-2 .Get-local-weather-updates-more{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    #container-2 .checked-text {
+        font-size: 1.1rem;
+    }
+    
+    
+/*----------------Container-3--------------------*/
+    
+    #container-3{
+        padding-left: 0;
+    }
+
+    #container-3 #wallpaper .wallpaper1, .wallpaper2, .wallpaper3 {
+        display: none;
+    }
+
+    #container-3 #wallpaper-text {
+        float: left;
+        width: 100%;
+    }
+
+    #container-3 #wallpaper-text .Real-time-Weather-Wallpaper {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    #container-3 #wallpaper-text .Enjoy-dynamic-backgrounds-on-your-phone-that-change-to-match{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    #container-3 #wallpaper-text .google-play {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 27%;
+    }
+    
+ /*----------------Container-4--------------------*/   
+    
+    #container-4 .container-4-left{
+        padding: 0;
+        width: 100%;
+        padding-top: 10%;
+    }
+    
+    #container-4 .container-4-right {
+        display: none;
+    }
+    
+    #container-4 .Custom-Web-Search {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #container-4 .Type-or-speak-to-search-the-web-from-your-home-screen {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    
+    #container-4 .container-4-nav {
+        font-size: 1.1rem;
+    }
+    
+    #container-4 .container-4-left .google-play{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+/*----------------Container-5--------------------*/
+    #container-5{
+        padding: 0;
+    }
+    
+    #container-5 p{
+        margin: 0;
+        line-height: 1;
+    }
+    
+    #container-5 .footer-1 {
+        font-size: 0.6rem;
+    }
+    
+    #container-5 .footer-2 {
+        font-size: 0.6rem;
+    } 
+}
+
+
+
+/*-------------------For Mobiles---------------*/
+
+@media screen and (max-width: 550px){
+
+/*----------------Container-1--------------------*/
+    
+    #mobile_absolute {
+        display: none;
+    }
+    
+    #container-1{
+        padding-right: 15.5%;
+    }
+    
+    #container-1 #nav-bar .weather-logo {
+        width: 40%;
+        padding-left: 28%;
+        padding-top: 2%;
+    }
+    
+    #sub-container-1 .Free-Weather-App-For-Your-Phone{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    
+    #sub-container-1 .Click-here-to-try-it-for-free{
+        font-size: 0.8rem;
+        margin-left: 60%;
+        margin-top: -12%;
+        width: 25%;
+    }
+    
+    #sub-container-1 .arrow{
+        margin-left: 55%;
+        margin-top: -3.5%;
+        width: 12%;
+    }
+    
+    #sub-container-1 .google-play{
+        width: 30%;
+        padding-left: 25%;
+    }
+    
+/*----------------Container-2--------------------*/
+    
+    #container-2{
+        padding-left: 0;
+    }
+    
+    #container-2 #check-1{
+        padding-left: 18%;
+    }
+    
+    #container-2 .Get-local-weather-updates-more{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    #container-2 .checked-text {
+        font-size: 0.7rem;
+    }
+    
+    
+/*----------------Container-3--------------------*/
+    
+    #container-3{
+        padding-left: 0;
+    }
+
+    #container-3 #wallpaper .wallpaper1, .wallpaper2, .wallpaper3 {
+        display: none;
+    }
+
+    #container-3 #wallpaper-text {
+        float: left;
+        width: 100%;
+    }
+
+    #container-3 #wallpaper-text .Real-time-Weather-Wallpaper {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    #container-3 #wallpaper-text .Enjoy-dynamic-backgrounds-on-your-phone-that-change-to-match{
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    #container-3 #wallpaper-text .google-play {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+    
+ /*----------------Container-4--------------------*/   
+    
+    #container-4 .container-4-left{
+        padding: 0;
+        width: 100%;
+        padding-top: 10%;
+    }
+    
+    #container-4 .container-4-right {
+        display: none;
+    }
+    
+    #container-4 .Custom-Web-Search {
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #container-4 .Type-or-speak-to-search-the-web-from-your-home-screen {
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    
+    #container-4 .container-4-nav {
+        font-size: 0.6rem;
+    }
+    
+    #container-4 .container-4-left .google-play{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+/*----------------Container-5--------------------*/
+    #container-5{
+        padding: 0;
+    }
+    
+    #container-5 p{
+        margin: 0;
+        line-height: 1;
+    }
+    
+    #container-5 .footer-1 {
+        font-size: 0.6rem;
+    }
+    
+    #container-5 .footer-2 {
+        font-size: 0.6rem;
+    } 
+}
